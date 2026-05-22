@@ -3,7 +3,7 @@ def quality_multiplication():
     time.sleep(1)
     print('You have chosen the quality system and multiplication operation.')
     time.sleep(1)
-    print('Complete 40 hard multiplication questions.')
+    print('Complete 20 hard multiplication questions.')
     time.sleep(1)
     print('You have 18 seconds per question.')
     time.sleep(1)
@@ -20,7 +20,7 @@ def quality_multiplication():
         qa = 0
         qac = 0
 
-        while qa < 40:
+        while qa < 20:
             a = random.randint(20, 100)
             b = random.randint(20, 100)
             answer = a * b
