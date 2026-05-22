@@ -3,7 +3,7 @@ def quantity_multiplication():
     time.sleep(1)
     print('You have chosen the quantity system and multiplication operation.')
     time.sleep(1)
-    print('Complete 100 easy multiplication questions.')
+    print('Complete 50 easy multiplication questions.')
     time.sleep(1)
     print('You have 16 seconds per question.')
     time.sleep(1)
@@ -16,7 +16,7 @@ def quantity_multiplication():
         stars = 0
         qa = 0
 
-        while qa < 100:
+        while qa < 50:
             a = random.randint(5, 50)
             b = random.randint(5, 50)
             answer = a * b
