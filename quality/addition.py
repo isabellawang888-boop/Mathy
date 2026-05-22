@@ -20,7 +20,7 @@ def quality_addition():
         qa = 0
         qac = 0
 
-        while qa < 50:
+        while qa < 30:
             a = random.randint(50, 500)
             b = random.randint(50, 500)
             answer = a + b
