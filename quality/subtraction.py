@@ -3,7 +3,7 @@ def quality_subtraction():
     time.sleep(1)
     print('You have chosen the quality system and subtraction operation.')
     time.sleep(1)
-    print('Complete 50 hard subtraction questions.')
+    print('Complete 30 hard subtraction questions.')
     time.sleep(1)
     print('You have 16 seconds per question.')
     time.sleep(1)
@@ -20,7 +20,7 @@ def quality_subtraction():
         qa = 0
         qac = 0
 
-        while qa < 50:
+        while qa < 30:
             a = random.randint(50, 400)
             b = random.randint(50, a)
             answer = a - b
