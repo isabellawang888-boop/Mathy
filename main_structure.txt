@@ -1,0 +1,15 @@
+# Mathy/
+│
+├── main.py
+│
+├── quantity_code(addition/subtraction/multiplication)/
+│   ├── system_explanation/
+│   ├── answer_check_using_op/
+│   └── check_daily_mission/
+│
+├── quality_code(addition/subtraction/multiplication)/
+│   ├── system_explanation
+│   ├── answer_check_using_op/
+│   └── check_daily_mission/
+│
+└── README.md
