@@ -3,7 +3,7 @@ def quality_addition():
     time.sleep(1)
     print('You have chosen the quality system and addition operation.')
     time.sleep(1)
-    print('Complete 50 hard addition questions.')
+    print('Complete 30 hard addition questions.')
     time.sleep(1)
     print('You have 15 seconds per question.')
     time.sleep(1)
