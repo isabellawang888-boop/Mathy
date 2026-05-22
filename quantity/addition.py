@@ -3,7 +3,7 @@ def quantity_addition():
     time.sleep(1)
     print('You have chosen the quantity system and addition operation.')
     time.sleep(1)
-    print('Complete 100 easy addition questions.')
+    print('Complete 60 easy addition questions.')
     time.sleep(1)
     print('You have 12 seconds per question.')
     time.sleep(1)
@@ -18,7 +18,7 @@ def quantity_addition():
         stars = 0
         qa = 0
 
-        while qa < 100:
+        while qa < 60:
             a = random.randint(10, 80)
             b = random.randint(10, 80)
             answer = a + b
